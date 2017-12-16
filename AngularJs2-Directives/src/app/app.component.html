@@ -1,0 +1,13 @@
+<div style="text-align: center">
+	<h1>ngIf example</h1>
+	<button (click)="hideOrShow()">Click to Hide Or Show below
+		text</button>
+	<div *ngIf="display">Hello- I am visible</div>
+</div>
+
+<div>
+	<h1>ngfor example</h1>
+	<ul *ngFor='let nm of names; let i = index; let l=last;let e=even' >
+		<li>Element is {{nm.name}} and index is {{i}} and last value is {{l}} and even index is {{e}}</li>
+	</ul>
+</div>
