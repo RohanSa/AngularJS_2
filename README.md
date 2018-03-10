@@ -1,2 +1,2 @@
 # AngularJS_2
-Contains AngularJS 2 sample projects
+Contains AngularJS 2 & 4 sample projects
